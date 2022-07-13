@@ -1,21 +1,20 @@
-nav{
+.nav{
 	position: sticky;
-	background-color: rgba(75, 75, 75, 0.75);
+	background-color: $navFooterColor;
 	ul li{
 	list-style: none;
 	margin: 20px;
 		a{
-		color: #D9DDE4;
+		color: $light;
 	    text-decoration: none;
-	    font-size: 1.8rem;
+	    font-size: $textSm;
 	    background-image: linear-gradient(currentColor, currentColor);
 	    background-position: 0% 100%;
 	    background-repeat: no-repeat;
 	    background-size: 0% 2%;
 	    transition: background-size .3s;;
-			
 			&:hover{
-			color: whitesmoke;
+			color: $light;
 			font-weight: 600;
 			background-size: 100% 2px;
 			}

@@ -1,0 +1,36 @@
+nav {
+  position: sticky;
+  background-color: rgba(75, 75, 75, 0.75); }
+  nav ul li {
+    list-style: none;
+    margin: 20px; }
+    nav ul li a {
+      color: #D9DDE4;
+      text-decoration: none;
+      font-size: 1.8rem;
+      background-image: linear-gradient(currentColor, currentColor);
+      background-position: 0% 100%;
+      background-repeat: no-repeat;
+      background-size: 0% 2%;
+      transition: background-size .3s; }
+      nav ul li a:hover {
+        color: whitesmoke;
+        font-weight: 600;
+        background-size: 100% 2px; }
+
+footer {
+  background-color: rgba(75, 75, 75, 0.75); }
+  footer .icons {
+    font-size: 2.5rem;
+    color: #D9DDE4; }
+  footer .footer {
+    background-color: rgba(0, 0, 0, 0.2); }
+
+body {
+  overflow-x: hidden;
+  background-image: url(../img/fondo2.jpg);
+  opacity: 1.0;
+  background-attachment: fixed; }
+
+html {
+  font-size: 62.5%; }

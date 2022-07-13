@@ -1,0 +1,13 @@
+@import "navBar";
+@import "footer";
+
+body{
+	overflow-x: hidden;
+	background-image: url(../img/fondo2.jpg);
+	opacity: 1.0;
+	background-attachment: fixed;
+}
+
+html{
+	font-size: 62.5%;
+}
